@@ -102,9 +102,9 @@ def run_odt_and_draw_results(image_path, interpreter, threshold=0.5):
 
 
 if __name__ == '__main__':
-    path_model = 'model.tflite'
+    path_model = 'model_classificator.tflite'
     # path_image = 'data/bcc_image_50.jpeg'
-    path_image = 'data/psoriasis_image_46.jpeg'
+    path_image = 'DAS/slike/psoriasis/psoriasis_image_46.jpeg'
     DETECTION_THRESHOLD = 0.3
 
     # labels = ['bcc', 'psoriasis']
